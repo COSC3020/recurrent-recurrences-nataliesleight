@@ -25,11 +25,11 @@ $T(n) = T(n/13) + 5$
  
  $= T(n/13^i) + 5i$
 
-for $i = \log_13 n$
+for $i = log_13 n$
 
- $= T(1) + 5\log_13 n = 1 + 5\log_13 n ∈ Θ(5\log n)$
+ $= T(1) + 5log_13 n = 1 + 5log_13 n ∈ Θ(5log n)$
 
-$T(n) ∈ Θ(5\log n)$
+$T(n) ∈ Θ(5log n)$
 
 1.
 $$ T(n) =
@@ -53,9 +53,9 @@ $T(n) = 13T(n/13) + 5$
  
  $= 13^i T(n/13^i) + 5i$
 
-for $i = \log_13 n$
+for $i = log_13 n$
 
- $= nT(1) + 5\log_13 n = n + 5\log_13 n ∈ Θ(n)$
+ $= nT(1) + 5log_13 n = n + 5log_13 n ∈ Θ(n)$
 
 $T(n) ∈ Θ(n)$
 
@@ -81,11 +81,11 @@ $T(n) = 13T(n/13) + 2n$
  
  $= 13^i T(n/13^i) + 2in$
 
-for $i = \log_13 n$
+for $i = log_13 n$
 
- $= nT(1) + 2n\log_13 n = n + 2n\log_13 n ∈ Θ(2n\log n)$
+ $= nT(1) + 2nlog_13 n = n + 2nlog_13 n ∈ Θ(2nlog n)$
 
-$T(n) ∈ Θ(2n\log n)$
+$T(n) ∈ Θ(2nlog n)$
 
 
 ### Sources:
