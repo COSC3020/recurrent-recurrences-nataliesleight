@@ -25,7 +25,7 @@ $T(n) = T(n/13) + 5$
  
  $= T(n/13^i) + 5i$
 
-for $i = log_(13) n$
+for $i = \log{_13} n$
 
  $= T(1) + 5\log{_13}{n} = 1 + 5\log{_13}{n} ∈ Θ(5\log{n})$
 
@@ -89,6 +89,8 @@ $T(n) ∈ Θ(2nlog n)$
 
 
 ### Sources:
+
+I was unable to get the base 13 for the logarithms to embed correctly. Each log with an explicit base is of base 13 and the 3 does not apply to the number after it.
 
 I used the example provided in the mergesort slides as well as referencing my own work for the Divide and Conquer Sum assignment.
 
