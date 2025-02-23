@@ -25,11 +25,11 @@ $T(n) = T(n/13) + 5$
  
  $= T(n/13^i) + 5i$
 
-for $i = log_13 n$
+for $i = \log{_13} n$
 
- $= T(1) + 5log_13 n = 1 + 5log_13 n ∈ Θ(5log n)$
+ $= T(1) + 5\log{_13} n = 1 + 5\log{_13} n ∈ Θ(5\log{n})$
 
-$T(n) ∈ Θ(5log n)$
+$T(n) ∈ Θ(5\log{n})$
 
 1.
 $$ T(n) =
